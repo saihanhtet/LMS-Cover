@@ -1,0 +1,40 @@
+{
+  "name": "lightecfa",
+  "productName": "lightecfa",
+  "version": "1.1.5",
+  "description": "LightECFA is a dynamic and user-friendly application designed to streamline the educational journey for both teachers and students. This innovative platform serves as a centralized hub for managing academic processes and lectures with utmost efficiency. Teachers can seamlessly organize and administer their courses, while students benefit from a structured learning experience. With its intuitive features, LightECFA fosters collaboration, communication, and a well-organized educational environment, enhancing the overall teaching and learning experience for all users.",
+  "main": ".webpack/main",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish",
+    "lint": "echo \"No linting configured\""
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^7.3.0",
+    "@electron-forge/maker-deb": "^7.3.0",
+    "@electron-forge/maker-rpm": "^7.3.0",
+    "@electron-forge/maker-squirrel": "^7.3.0",
+    "@electron-forge/maker-zip": "^7.3.0",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.3.0",
+    "@electron-forge/plugin-fuses": "^7.2.0",
+    "@electron-forge/plugin-webpack": "^7.3.0",
+    "@electron/fuses": "^1.7.0",
+    "@vercel/webpack-asset-relocator-loader": "1.7.3",
+    "css-loader": "^6.0.0",
+    "electron": "29.1.1",
+    "node-loader": "^2.0.0",
+    "style-loader": "^3.0.0"
+  },
+  "keywords": [],
+  "author": {
+    "name": "saihanhtet",
+    "email": "sai.hanhtetsan@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@electron-forge/maker-wix": "^7.3.0",
+    "electron-squirrel-startup": "^1.0.0"
+  }
+}
